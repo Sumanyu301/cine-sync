@@ -17,6 +17,9 @@ const Body = () => {
       element: <Browse />,
     },
   ]);
+
+console.log("FOR PR MERGE");
+
   useEffect(() => {
     onAuthStateChanged(auth, (user) => {
       if (user) {
